@@ -74,7 +74,7 @@ Param(
         [Parameter(
         Position=9,
         Mandatory=$False,
-        HelpMessage="Is this a Linux VM? (default is $False)"
+        HelpMessage="Is this a Linux VM? (default is False)"
         )]
         [ValidateSet($True, $False)]
         [bool]$LinuxVM = $False
